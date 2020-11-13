@@ -40,8 +40,7 @@ export default class AgeCalculator {
 
   ageMars() {
     let age = Math.round(this.age/1.88);
-    let marsLifeExpect = Math.round(this.avgLifeExpect/1.88);
-    let yearsLeft = marsLifeExpect - age;
+    let yearsLeft = (Math.round(this.avgLifeExpect/1.88)) - age;
     return `You are ${age} years old on Mars and you have ${yearsLeft} years left to live`;
   }
 

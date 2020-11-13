@@ -57,6 +57,10 @@ _This application will determine a user's age based on a planet's solar years._
     <td>ageJupiter(25)</td>
     <td>toEqual(2)</td>
   </tr>
+  <tr>
+    <td>6</td>
+    <td>lifeExpect(activityLevel, stressLevel)<br>activityLevel: 2, stressLevel: 6</td>
+    <td>toEqual(63)</td>
 </table>
 <br>
 

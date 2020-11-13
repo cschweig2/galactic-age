@@ -26,15 +26,25 @@ _This application will determine a user's age based on a planet's solar years._
 
 ## Test Specs
 
-Describe: ageCalculator();
+<table>
+  <tr>
+    <th>Test #</th>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>ageCalculator(25, 73)</td>
+    <td>toEqual(25, 73)</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>ageMercury(25)</td>
+    <td>toEqual(104)</td>
+  </tr>
+</table>
+<br>
 
-Test: "It should create a class storing the users Earth age and life expectancy."<br>
-Expect(ageCalculator(25, 73)).toEqual(25, 73);
-
-Describe: ageMercury();
-
-Test: "It should determine the users age on planet Mercury."<br>
-Expect(ageMercury(25)).toEqual(104);
 
 ## Support and contact details
 

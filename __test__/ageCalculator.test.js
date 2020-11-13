@@ -1,14 +1,18 @@
 import AgeCalculator from './../src/ageCalculator.js';
 
-describe('ageCalculator', () => {
-  let ageCalculator;
+describe('Age Calculator', () => {
+  let user;
 
   beforeEach (() => {
-    ageCalculator = new AgeCalculator(25, 73);
+    user = new AgeCalculator(25, 73);
   });
 
   test('should create a class storing the users Earth age and life expectancy', () => {
-  expect(ageCalculator.age).toEqual(25);
-  expect(ageCalculator.lifeExpect).toEqual(73);
+    expect(user.age).toEqual(25);
+    expect(user.lifeExpect).toEqual(73);
+  });
+
+  test('should calculate the users age on planet Mercury', () => {
+    expect(user.ageMercury()).toEqual(103);
   });
 });

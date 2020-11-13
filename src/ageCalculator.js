@@ -13,4 +13,10 @@ export default class AgeCalculator {
     let age = Math.round(this.age/.62);
     return age;
   }
+
+  ageMars() {
+    let age = Math.round(this.age/1.88);
+    return age;
+  }
+
 };

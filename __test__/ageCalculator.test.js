@@ -18,5 +18,9 @@ describe('Age Calculator', () => {
 
   test('should calculate the users age on planet Venus', () => {
     expect(user.ageVenus()).toEqual(40);
-  })
+  });
+
+  test('should calculate the users age on planet Mars', () => {
+    expect(user.ageMars()).toEqual(12);
+  });
 });

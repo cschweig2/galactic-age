@@ -2,6 +2,7 @@ import AgeCalculator from './../src/ageCalculator.js';
 
 describe('Age Calculator', () => {
   let user;
+  let user2;
 
   beforeEach (() => {
     user = new AgeCalculator(25, 2, 6, 2);
@@ -33,5 +34,13 @@ describe('Age Calculator', () => {
 
   test('should calculate life expectancy of user based on stress and activity levels', () => {
     expect(user.lifeExpectCalc()).toEqual(58);
+  });
+
+  beforeEach (() => {
+    user2 = new AgeCalculator(75);
+  });
+
+  test('should give number of years surpassed life expectancy if age is greater than life expectancy on Mercury', () => {
+    expect(user2.ageMercury()).toBe('You are 312 years old on Mercury and you have surpassed the life expectancy by 9 year(s)')
   });
 });

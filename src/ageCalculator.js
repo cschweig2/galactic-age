@@ -29,7 +29,12 @@ export default class AgeCalculator {
   ageMercury() {
     let age = Math.round(this.age/.24);
     let yearsLeft = (Math.round(this.avgLifeExpect/.24)) - age;
-    return `You are ${age} years old on Mercury and you have ${yearsLeft} years left to live`;
+    if (yearsLeft < 0) {
+      yearsLeft = Math.abs(yearsLeft);
+      return `You are ${age} years old on Mercury and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
+    } else {
+      return `You are ${age} years old on Mercury and you have ${yearsLeft} years left to live`;
+    }
   }
 
   ageVenus() {
@@ -50,4 +55,4 @@ export default class AgeCalculator {
     return `You are ${age} years old on Jupiter and you have ${yearsLeft} years left to live`;
   }
   
-};
+}

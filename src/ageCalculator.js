@@ -5,7 +5,12 @@ export default class AgeCalculator {
   }
 
   ageMercury() {
-    let age = Math.floor(this.age/.24);
+    let age = Math.round(this.age/.24);
+    return age;
+  }
+
+  ageVenus() {
+    let age = Math.round(this.age/.62);
     return age;
   }
 };

@@ -71,9 +71,9 @@ _This application will determine a user's age based on a planet's solar years._
   </tr>
   <tr>
     <td>7</td>
-    <td>Adds to ageMercury() to output users expect years left of life</td>
-    <td>lifeExpectCalc()<br>ageMercury(25)</td>
-    <td>toBe('you are ${age} years old on Mercury and you have ${yearsLeft} years left')</td>
+    <td>Adds to ageMercury() to output users expected years left of life on Mercury</td>
+    <td>ageMercury(25)</td>
+    <td>toBe('You are 103 years old on Mercury and you have 200 years left to live')</td>
   </tr>
   <tr>
     <td>8</td>
@@ -81,6 +81,13 @@ _This application will determine a user's age based on a planet's solar years._
     <td>AgeCalculator(25,2,6,2)</td>
     <td>toEqual(25,2,6,2)</td>
   </tr>
+  <tr>
+    <td>9></td>
+    <td>Adds to ageVenus() to output users expected years left of life on Venus</td>
+    <td>ageVenus(25)</td>
+    <td>toBe('You are 40 years old on Venus and you have 78 years left to live')</td>
+  </tr>
+
 
 
 

@@ -40,7 +40,11 @@ export default class AgeCalculator {
   ageVenus() {
     let age = Math.round(this.age/.62);
     let yearsLeft = (Math.round(this.avgLifeExpect/.62)) - age;
+    if (yearsLeft < 0) {
+      return `You are ${age} years old on Venus and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
+    } else {
     return `You are ${age} years old on Venus and you have ${yearsLeft} years left to live`;
+    }
   }
 
   ageMars() {

@@ -28,8 +28,7 @@ export default class AgeCalculator {
 
   ageMercury() {
     let age = Math.round(this.age/.24);
-    let mercuryLifeExpect = Math.round(this.avgLifeExpect/.24);
-    let yearsLeft = mercuryLifeExpect - age;
+    let yearsLeft = (Math.round(this.avgLifeExpect/.24)) - age;
     return `You are ${age} years old on Mercury and you have ${yearsLeft} years left to live`;
   }
 

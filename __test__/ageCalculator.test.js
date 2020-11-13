@@ -29,6 +29,6 @@ describe('Age Calculator', () => {
   });
 
   test('should calculate life expectancy of user based on stress and activity levels', () => {
-    expect(user.lifeExpectCalc()).toEqual(62);
+    expect(user.lifeExpectCalc()).toEqual(63);
   });
 });

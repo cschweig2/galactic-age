@@ -53,6 +53,6 @@ describe('Age Calculator', () => {
   });
 
   test('should give number of years surpassed life expectancy if age is greater than life expectancy on Jupiter', () => {
-    expect(user2.ageJupiter()).toBe('You are 5 years old on Jupiter and you have surpassed the life expectancy by 0 year(s)')
+    expect(user2.ageJupiter()).toBe('You are 6 years old on Jupiter and you have surpassed the life expectancy by 0 year(s)')
   })
 });

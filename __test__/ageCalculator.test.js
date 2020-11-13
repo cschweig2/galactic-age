@@ -45,6 +45,6 @@ describe('Age Calculator', () => {
   });
 
   test('should give number of years surpassed life expectancy if age is greater than life expectancy on Venus', () => {
-    expect(user2.ageVenus()).toBe('You are 120 years old on Venus and you have surpassed the life expectancy by 3 year(s)')
+    expect(user2.ageVenus()).toBe('You are 121 years old on Venus and you have surpassed the life expectancy by 3 year(s)')
   })
 });

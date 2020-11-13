@@ -29,7 +29,7 @@ _This application will determine a user's age based on a planet's solar years._
 Describe: ageCalculator();
 
 Test: "It should create a class storing the user's Earth age and life expectancy."<br>
-Expect(ageCalculator("earth", "25")).toEqual("earth", 25, 73); <br>
+Expect(ageCalculator(25, 73)).toEqual(25, 73); <br>
 
 ## Support and contact details
 

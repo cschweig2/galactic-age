@@ -105,6 +105,12 @@ _This application will determine a user's age based on a planet's solar years._
     <td>ageMercury(75)</td>
     <td>toBe('You are 313 years old on Mercury and you have surpassed the life expectancy by 9 year(s)')</td>
   </tr>
+  <tr>
+    <td>13</td>
+    <td>Adds to ageVenus() to output years user has lived past life expectancy, if applicable</td>
+    <td>ageVenus(75)</td>
+    <td>toBe('You are 121 years old on Venus and you have surpassed the life expectancy by 3 year(s)')</td>
+  </tr>
   
 </table>
 <br>

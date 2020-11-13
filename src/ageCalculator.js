@@ -29,7 +29,7 @@ export default class AgeCalculator {
   ageMercury() {
     let age = Math.round(this.age/.24);
     let yearsLeft = (Math.round(this.avgLifeExpect/.24)) - age;
-    if (yearsLeft < 0) {
+    if (yearsLeft <= 0) {
       yearsLeft = Math.abs(yearsLeft);
       return `You are ${age} years old on Mercury and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
     } else {
@@ -40,7 +40,7 @@ export default class AgeCalculator {
   ageVenus() {
     let age = Math.round(this.age/.62);
     let yearsLeft = (Math.round(this.avgLifeExpect/.62)) - age;
-    if (yearsLeft < 0) {
+    if (yearsLeft <= 0) {
       yearsLeft = Math.abs(yearsLeft);
       return `You are ${age} years old on Venus and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
     } else {
@@ -51,9 +51,9 @@ export default class AgeCalculator {
   ageMars() {
     let age = Math.round(this.age/1.88);
     let yearsLeft = (Math.round(this.avgLifeExpect/1.88)) - age;
-    if (yearsLeft < 0) {
+    if (yearsLeft <= 0) {
       yearsLeft = Math.abs(yearsLeft);
-      return `You are ${age} years old on Venus and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
+      return `You are ${age} years old on Mars and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
     } else {
     return `You are ${age} years old on Mars and you have ${yearsLeft} years left to live`;
     }
@@ -62,7 +62,12 @@ export default class AgeCalculator {
   ageJupiter() {
     let age = Math.round(this.age/11.86);
     let yearsLeft = (Math.round(this.avgLifeExpect/11.86)) - age;
+    if (yearsLeft <= 0) {
+      yearsLeft = Math.abs(yearsLeft);
+      return `You are ${age} years old on Jupiter and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
+    } else {
     return `You are ${age} years old on Jupiter and you have ${yearsLeft} years left to live`;
+    }
   }
   
 }

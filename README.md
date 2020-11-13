@@ -93,6 +93,13 @@ _This application will determine a user's age based on a planet's solar years._
     <td>ageMars(25)</td>
     <td>toBe('You are 13 years old on Mars and you have 26 years left to live')</td>
   </tr>
+  <tr>
+    <td>11</td>
+    <td>Adds to ageJupiter() to output users expected years left of life on Jupiter</td>
+    <td>ageJupiter(25)</td>
+    <td>toBe('You are 2 years old on Jupiter and you have 4 years left to live')</td>
+  </tr>
+  
 
 
 

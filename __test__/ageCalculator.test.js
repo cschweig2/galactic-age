@@ -4,7 +4,7 @@ describe('Age Calculator', () => {
   let user;
 
   beforeEach (() => {
-    user = new AgeCalculator(25, 2, 6);
+    user = new AgeCalculator(25, 2, 6, 2);
   });
 
   test('should create a class storing the users Earth age and life expectancy', () => {
@@ -29,6 +29,6 @@ describe('Age Calculator', () => {
   });
 
   test('should calculate life expectancy of user based on stress and activity levels', () => {
-    expect(user.lifeExpectCalc()).toEqual(63);
+    expect(user.lifeExpectCalc()).toEqual(59);
   });
 });

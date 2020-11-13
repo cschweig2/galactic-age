@@ -52,6 +52,11 @@ _This application will determine a user's age based on a planet's solar years._
     <td>ageMars(25)</td>
     <td>toEqual(13)</td>
   </tr>
+  <tr>
+    <td>5</td>
+    <td>ageJupiter(25)</td>
+    <td>toEqual(2)</td>
+  </tr>
 </table>
 <br>
 

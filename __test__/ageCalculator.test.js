@@ -41,6 +41,6 @@ describe('Age Calculator', () => {
   });
 
   test('should give number of years surpassed life expectancy if age is greater than life expectancy on Mercury', () => {
-    expect(user2.ageMercury()).toBe('You are 312 years old on Mercury and you have surpassed the life expectancy by 9 year(s)')
+    expect(user2.ageMercury()).toBe('You are 313 years old on Mercury and you have surpassed the life expectancy by 9 year(s)')
   });
 });

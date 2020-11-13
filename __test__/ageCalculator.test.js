@@ -4,12 +4,12 @@ describe('Age Calculator', () => {
   let user;
 
   beforeEach (() => {
-    user = new AgeCalculator(25, 73);
+    user = new AgeCalculator(25, 2, 6);
   });
 
   test('should create a class storing the users Earth age and life expectancy', () => {
     expect(user.age).toEqual(25);
-    expect(user.lifeExpect).toEqual(73);
+    expect(user.avgLifeExpect).toEqual(73);
   });
 
   test('should calculate the users age on planet Mercury', () => {
@@ -26,5 +26,9 @@ describe('Age Calculator', () => {
 
   test('should calculate the users age on planet Jupiter', () => {
     expect(user.ageJupiter()).toEqual(2);
+  });
+
+  test('should calculate life expectancy of user based on stress and activity levels', () => {
+    expect(user.lifeExpectCalc()).toEqual(62);
   });
 });

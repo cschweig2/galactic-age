@@ -36,7 +36,7 @@ _This application will determine a user's age based on a planet's solar years._
   <tr>
     <td>1</td>
     <td>Create a constructor that holds age and average life expectancy.
-    <td>ageCalculator(25, 73)</td>
+    <td>AgeCalculator(25, 73)</td>
     <td>toEqual(25, 73)</td>
   </tr>
   <tr>
@@ -78,10 +78,10 @@ _This application will determine a user's age based on a planet's solar years._
   <tr>
     <td>8</td>
     <td>Adds to constructor to include activity level, stress level, and vegetable intake to calculate life expectancy, and preset base life expectancy to 73</td>
-    <td>ageCalculator(25,2,6,2)</td>
+    <td>AgeCalculator(25,2,6,2)</td>
     <td>toEqual(25,2,6,2)</td>
   </tr>
-  
+
 
 
     

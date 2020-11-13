@@ -1,4 +1,12 @@
-h1 {
-  color: rgb(18, 82, 165);
+h1.jumbotron {
+  color: rgb(20, 50, 90);
   text-align: center;
+  opacity: 80%;
+  font-size: 400%;
+}
+
+body {
+  background-image: url("./../assets/images/galaxy.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }

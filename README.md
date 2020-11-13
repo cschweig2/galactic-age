@@ -71,9 +71,12 @@ _This application will determine a user's age based on a planet's solar years._
   </tr>
   <tr>
     <td>7</td>
-    <td>If users age is greater than life expectancy on planet, the number of years exceeding life expectancy is returned</td>
-    <td>lifeExpectCalc()</td>
-    <td>toEqual()
+    <td>Adds to ageMercury() to output users expect years left of life</td>
+    <td>lifeExpectCalc()<br>ageMercury(25)</td>
+    <td>toBe('you are ${age} years old on Mercury and you have ${yearsLeft} years left')</td>
+  </tr>
+
+    
 </table>
 <br>
 

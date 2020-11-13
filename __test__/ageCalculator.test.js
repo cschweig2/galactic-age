@@ -16,11 +16,11 @@ describe('Age Calculator', () => {
   });
 
   test('should calculate the users age on planet Mercury', () => {
-    expect(user.ageMercury()).toBe('you are 104 years old on Mercury and you have 200 years left');
+    expect(user.ageMercury()).toBe('You are 104 years old on Mercury and you have 200 years left to live');
   });
 
   test('should calculate the users age on planet Venus', () => {
-    expect(user.ageVenus()).toEqual(40);
+    expect(user.ageVenus()).toEqual('You are 40 years old on Venus and you have 79 years left to live');
   });
 
   test('should calculate the users age on planet Mars', () => {

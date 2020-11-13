@@ -30,12 +30,14 @@ export default class AgeCalculator {
     let age = Math.round(this.age/.24);
     let mercuryLifeExpect = Math.round(this.avgLifeExpect/.24);
     let yearsLeft = mercuryLifeExpect - age;
-    return `you are ${age} years old on Mercury and you have ${yearsLeft} years left`;
+    return `You are ${age} years old on Mercury and you have ${yearsLeft} years left to live`;
   }
 
   ageVenus() {
     let age = Math.round(this.age/.62);
-    return age;
+    let venusLifeExpect = Math.round(this.avgLifeExpect/.62);
+    let yearsLeft = venusLifeExpect - age;
+    return `You are ${age} years old on Venus and you have ${yearsLeft} years left to live`;
   }
 
   ageMars() {
@@ -48,5 +50,4 @@ export default class AgeCalculator {
     return age;
   }
   
-
 };

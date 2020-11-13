@@ -66,8 +66,14 @@ _This application will determine a user's age based on a planet's solar years._
   <tr>
     <td>6</td>
     <td>Calculates life expectancy based on user input</td>
-    <td>lifeExpectCalc(activityLevel, stressLevel)<br>activityLevel: 2, stressLevel: 6</td>
-    <td>toEqual(63)</td>
+    <td>lifeExpectCalc()<br>activityLevel: 2, stressLevel: 6, vegIntake: 2</td>
+    <td>toEqual(58)</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>If users age is greater than life expectancy on planet, the number of years exceeding life expectancy is returned</td>
+    <td>lifeExpectCalc()</td>
+    <td>toEqual()
 </table>
 <br>
 

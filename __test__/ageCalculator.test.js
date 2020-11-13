@@ -28,7 +28,7 @@ describe('Age Calculator', () => {
   });
 
   test('should calculate the users age on planet Jupiter and determines years left to live', () => {
-    expect(user.ageJupiter()).toBe('You are 2 years old on Jupiter and you have 4 years left to live');
+    expect(user.ageJupiter()).toBe('You are 3 years old on Jupiter and you have 4 years left to live');
   });
 
   test('should calculate life expectancy of user based on stress and activity levels', () => {

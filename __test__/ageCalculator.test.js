@@ -8,7 +8,7 @@ describe('ageCalculator', () => {
   });
 
   test('should create a class storing the users Earth age and life expectancy', () => {
-  expect(ageCalculator.age).toEqual(24);
+  expect(ageCalculator.age).toEqual(25);
   expect(ageCalculator.lifeExpect).toEqual(73);
   });
 });

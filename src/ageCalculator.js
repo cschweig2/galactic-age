@@ -7,26 +7,6 @@ export default class AgeCalculator {
     this.vegIntake = vegIntake;
   }
 
-  ageMercury() {
-    let age = Math.round(this.age/.24);
-    return age;
-  }
-
-  ageVenus() {
-    let age = Math.round(this.age/.62);
-    return age;
-  }
-
-  ageMars() {
-    let age = Math.round(this.age/1.88);
-    return age;
-  }
-
-  ageJupiter() {
-    let age = Math.round(this.age/11.86);
-    return age;
-  }
-
   lifeExpectCalc() {
     if (this.activityLevel < 5) {
       this.avgLifeExpect -= 5;
@@ -45,5 +25,28 @@ export default class AgeCalculator {
     }
     return this.avgLifeExpect;
   }
+
+  ageMercury() {
+    let age = Math.round(this.age/.24);
+    let mercuryLifeExpect = Math.round(this.avgLifeExpect/.24);
+    let yearsLeft = mercuryLifeExpect - age;
+    return `you are ${age} years old on Mercury and you have ${yearsLeft} years left`;
+  }
+
+  ageVenus() {
+    let age = Math.round(this.age/.62);
+    return age;
+  }
+
+  ageMars() {
+    let age = Math.round(this.age/1.88);
+    return age;
+  }
+
+  ageJupiter() {
+    let age = Math.round(this.age/11.86);
+    return age;
+  }
+  
 
 };

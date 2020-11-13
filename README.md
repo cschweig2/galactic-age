@@ -82,10 +82,16 @@ _This application will determine a user's age based on a planet's solar years._
     <td>toEqual(25,2,6,2)</td>
   </tr>
   <tr>
-    <td>9></td>
+    <td>9</td>
     <td>Adds to ageVenus() to output users expected years left of life on Venus</td>
     <td>ageVenus(25)</td>
     <td>toBe('You are 40 years old on Venus and you have 78 years left to live')</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Adds to ageMars() to output users expected years left of life on Mars</td>
+    <td>ageMars(25)</td>
+    <td>toBe('You are 13 years old on Mars and you have 26 years left to live')</td>
   </tr>
 
 

@@ -3,6 +3,8 @@ import AgeCalculator from './../src/ageCalculator.js';
 describe('Age Calculator', () => {
   let user;
   let user2;
+  let user3;
+
 
   beforeEach (() => {
     user = new AgeCalculator(25, 2, 6, 2);
@@ -41,18 +43,27 @@ describe('Age Calculator', () => {
   });
 
   test('should give number of years surpassed life expectancy if age is greater than life expectancy on Mercury', () => {
-    expect(user2.ageMercury()).toBe('You are 313 years old on Mercury and you have surpassed the life expectancy by 9 year(s)')
+    expect(user2.ageMercury()).toBe('You are 313 years old on Mercury and you have surpassed the life expectancy by 9 year(s)');
   });
 
   test('should give number of years surpassed life expectancy if age is greater than life expectancy on Venus', () => {
-    expect(user2.ageVenus()).toBe('You are 121 years old on Venus and you have surpassed the life expectancy by 3 year(s)')
+    expect(user2.ageVenus()).toBe('You are 121 years old on Venus and you have surpassed the life expectancy by 3 year(s)');
   });
 
   test('should give number of years surpassed life expectancy if age is greater than life expectancy on Mars', () => {
-    expect(user2.ageMars()).toBe('You are 40 years old on Mars and you have surpassed the life expectancy by 1 year(s)')
+    expect(user2.ageMars()).toBe('You are 40 years old on Mars and you have surpassed the life expectancy by 1 year(s)');
   });
 
   test('should give number of years surpassed life expectancy if age is greater than life expectancy on Jupiter', () => {
-    expect(user2.ageJupiter()).toBe('You are 6 years old on Jupiter and you have surpassed the life expectancy by 0 year(s)')
-  })
+    expect(user2.ageJupiter()).toBe('You are 6 years old on Jupiter and you have surpassed the life expectancy by 0 year(s)');
+  });
+
+  beforeEach(() => {
+    user3 = new AgeCalculator(25, 6, 2, 7); 
+  });
+
+  test('should calculate life expectancy of user based on stress and activity levels', () => {
+    expect(user3.lifeExpectCalc()).toEqual(92);
+  });
+
 });

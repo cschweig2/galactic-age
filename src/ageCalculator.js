@@ -69,5 +69,4 @@ export default class AgeCalculator {
     return `You are ${age} years old on Jupiter and you have ${yearsLeft} years left to live`;
     }
   }
-  
 }

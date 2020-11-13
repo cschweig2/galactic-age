@@ -1,23 +1,23 @@
-# Title of Project
+# Galactic Age Calculator
 
-#### What this project is, Last Updated 11.06.2020
+#### Code Review, Last Updated 11.13.2020
 
 #### **By Chelsea Becker**
 
 ## Description
 
-_This application will do something. I will explain that something here._
+_This application will determine a user's age based on a planet's solar years._
 
 ## Setup/Installation Requirements
 ### View Online
-1. _Open the webpage at https://cschweig2.github.io/insert-project-name._
+1. _Open the webpage at https://cschweig2.github.io/galactic-age._
 2. _Do x, y, and z to navigate application._
 
 ### View locally (on computer)
-1. _Open web browser and go to https://github.com/cschweig2/insert-project-name_
+1. _Open web browser and go to https://github.com/cschweig2/galactic-age._
 2. _After clicking the green "code" button, you can copy the URL for the repository._
 3. _Open a terminal window, such as Command Prompt or Git Bash._<br>
-  3a. _Type in this command: "git clone", followed by the URL you just copied. The full command should look like this: "git clone https://github.com/cschweig2/insert-project-name.git"._
+  3a. _Type in this command: "git clone", followed by the URL you just copied. The full command should look like this: "git clone https://github.com/cschweig2/galactic-age"._
 4. _You may view the website displaying the application by clicking the index.html file or view the code on your favorite text editor, such as Visual Studio Code._
 
 ## Known Bugs
@@ -26,10 +26,10 @@ _This application will do something. I will explain that something here._
 
 ## Test Specs
 
-Describe: sampleFunc();
+Describe: ageCalculator();
 
-Test: "It should do something."<br>
-Expect(test.sampleFunc()).toEqual("Hello"); <br>
+Test: "It should create a class storing the user's Earth age and life expectancy."<br>
+Expect(ageCalculator()).toEqual("25", "73"); <br>
 
 ## Support and contact details
 
@@ -37,12 +37,12 @@ _If you run into any issues, you can contact the creator at cschweig2@gmail.com,
 
 ## Technologies Used
 
-_VS Code_ <br />
-_HTML_ <br />
-_CSS_ <br />
-_Bootstrap_ <br />
-_JavaScript_ <br />
-_JQuery_
+_VS Code_ <br>
+_HTML_ <br>
+_CSS_ <br>
+_Bootstrap_ <br>
+_JavaScript_ <br>
+_JQuery_ <br>
 
 ## Legal
 

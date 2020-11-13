@@ -49,6 +49,6 @@ describe('Age Calculator', () => {
   })
 
   test('should give number of years surpassed life expectancy if age is greater than life expectancy on Mars', () => {
-    expect(user2.ageMars()).toBe('You are 39 years old on Venus and you have surpassed the life expectancy by 1 year(s)')
+    expect(user2.ageMars()).toBe('You are 40 years old on Venus and you have surpassed the life expectancy by 1 year(s)')
   })
 });

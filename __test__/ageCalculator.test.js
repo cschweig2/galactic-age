@@ -10,6 +10,9 @@ describe('Age Calculator', () => {
   test('should create a class storing the users Earth age and life expectancy', () => {
     expect(user.age).toEqual(25);
     expect(user.avgLifeExpect).toEqual(73);
+    expect(user.activityLevel).toEqual(2);
+    expect(user.stressLevel).toEqual(6);
+    expect(user.vegIntake).toEqual(2);
   });
 
   test('should calculate the users age on planet Mercury', () => {

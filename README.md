@@ -75,6 +75,14 @@ _This application will determine a user's age based on a planet's solar years._
     <td>lifeExpectCalc()<br>ageMercury(25)</td>
     <td>toBe('you are ${age} years old on Mercury and you have ${yearsLeft} years left')</td>
   </tr>
+  <tr>
+    <td>8</td>
+    <td>Adds to constructor to include activity level, stress level, and vegetable intake to calculate life expectancy, and preset base life expectancy to 73</td>
+    <td>ageCalculator(25,2,6,2)</td>
+    <td>toEqual(25,2,6,2)</td>
+  </tr>
+  
+
 
     
 </table>

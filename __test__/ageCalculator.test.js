@@ -5,7 +5,6 @@ describe('Age Calculator', () => {
   let user2;
   let user3;
 
-
   beforeEach (() => {
     user = new AgeCalculator(25, 2, 6, 2);
   });

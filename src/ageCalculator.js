@@ -44,7 +44,7 @@ export default class AgeCalculator {
       yearsLeft = Math.abs(yearsLeft);
       return `You are ${age} years old on Venus and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
     } else {
-    return `You are ${age} years old on Venus and you have ${yearsLeft} years left to live`;
+      return `You are ${age} years old on Venus and you have ${yearsLeft} years left to live`;
     }
   }
 
@@ -55,7 +55,7 @@ export default class AgeCalculator {
       yearsLeft = Math.abs(yearsLeft);
       return `You are ${age} years old on Mars and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
     } else {
-    return `You are ${age} years old on Mars and you have ${yearsLeft} years left to live`;
+      return `You are ${age} years old on Mars and you have ${yearsLeft} years left to live`;
     }
   }
 
@@ -66,7 +66,7 @@ export default class AgeCalculator {
       yearsLeft = Math.abs(yearsLeft);
       return `You are ${age} years old on Jupiter and you have surpassed the life expectancy by ${yearsLeft} year(s)`;
     } else {
-    return `You are ${age} years old on Jupiter and you have ${yearsLeft} years left to live`;
+      return `You are ${age} years old on Jupiter and you have ${yearsLeft} years left to live`;
     }
   }
 }

@@ -29,36 +29,43 @@ _This application will determine a user's age based on a planet's solar years._
 <table>
   <tr>
     <th>Test #</th>
+    <th>Expected Behavior</th>
     <th>Input</th>
     <th>Output</th>
   </tr>
   <tr>
     <td>1</td>
+    <td>Create a constructor that holds age and average life expectancy.
     <td>ageCalculator(25, 73)</td>
     <td>toEqual(25, 73)</td>
   </tr>
   <tr>
     <td>2</td>
+    <td>Calculates age on Mercury</td>
     <td>ageMercury(25)</td>
     <td>toEqual(104)</td>
   </tr>
   <tr>
     <td>3</td>
+    <td>Calculates age on Venus</td>
     <td>ageVenus(25)</td>
     <td>toEqual(40)</td>
   </tr>
   <tr>
     <td>4</td>
+    <td>Calculates age on Mars</td>
     <td>ageMars(25)</td>
     <td>toEqual(13)</td>
   </tr>
   <tr>
     <td>5</td>
+    <td>Calculates age on Jupiter</td>
     <td>ageJupiter(25)</td>
     <td>toEqual(2)</td>
   </tr>
   <tr>
     <td>6</td>
+    <td>Calculates life expectancy based on user input</td>
     <td>lifeExpectCalc(activityLevel, stressLevel)<br>activityLevel: 2, stressLevel: 6</td>
     <td>toEqual(63)</td>
 </table>

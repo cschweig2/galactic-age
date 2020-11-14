@@ -10,8 +10,8 @@ _This application will determine a user's age based on a planet's solar years._
 
 ## Setup/Installation Requirements
 ### View Online
-1. _Open the webpage at https://cschweig2.github.io/galactic-age._
-2. _Do x, y, and z to navigate application._
+1. _On a web browser of your choice, navigate to https://github.com/cschweig2/galactic-age._
+2. _Explore the file tree to view source code, packages installed, etc._
 
 ### View locally (on computer)
 1. _Open web browser and go to https://github.com/cschweig2/galactic-age._
@@ -19,10 +19,11 @@ _This application will determine a user's age based on a planet's solar years._
 3. _Open a terminal window, such as Command Prompt or Git Bash._<br>
   3a. _Type in this command: "git clone", followed by the URL you just copied. The full command should look like this: "git clone https://github.com/cschweig2/galactic-age"._
 4. _You may view the website displaying the application by clicking the index.html file or view the code on your favorite text editor, such as Visual Studio Code._
+5._You will need to install node.js to utilize the correct packages needed for this project. Please go to https://nodejs.org/en/ for more information._
 
 ## Known Bugs
 
-1. _List known bugs, if any._
+No known bugs at this time.
 
 ## Test Specs
 
@@ -129,7 +130,6 @@ _This application will determine a user's age based on a planet's solar years._
     <td>lifeExpectCalc()</td>
     <td>toEqual(93)</td>
   </tr>
-  
 </table>
 <br>
 
@@ -146,6 +146,7 @@ _CSS_ <br>
 _Bootstrap_ <br>
 _JavaScript_ <br>
 _JQuery_ <br>
+_webpack_
 
 ## Legal
 

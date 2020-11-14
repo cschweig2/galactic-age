@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+body {
+  background-image: url("./../assets/images/galaxy.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Goldman;
+}
+
 h1.jumbotron {
   color: rgb(20, 50, 90);
   text-align: center;
@@ -5,8 +14,20 @@ h1.jumbotron {
   font-size: 400%;
 }
 
-body {
-  background-image: url("./../assets/images/galaxy.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+h3 {
+  text-align: center;
+}
+
+form {
+  margin: 25px;
+
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-header {
+  text-align: center;
 }
